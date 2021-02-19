@@ -374,7 +374,11 @@ left:0;background-position:cover;
 .dddd{}
 .about-title.dddd { background: rgba(0, 0, 0, 0) url("../img/restaurantaaaa.png") no-repeat scroll center bottom;
     color: #fff;
-    top: 28px;}
+    top: 28px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 /**********foo-menu-item**********/
 
 .food-menu-area{padding: 80px 0;position:relative;}
@@ -438,7 +442,38 @@ position:absolute;top:0;left:0;background-size:cover;
 .section-padding {
     padding: 80px 0;
 }
+.footer-widget p {
+    color: #ece4e4;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-cards {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-icon i{
+    font-size: 23px ;
+    color: white;
+
+}
 label{color:#D4BA7A;}
 .footer-area {
     background: black none repeat scroll 0 0;
+    padding: 80px;
+    margin-top: -24px;
+    padding-left: 158px;
+}
+
+button.btn.btn-default {
+    margin-top: 18px;
+    padding: 14px;
+    font-size: 16px;
+    margin-left: -16px;
+}
+.contact-from {
+    width: 940px;
 }
